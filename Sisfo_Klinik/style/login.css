@@ -141,3 +141,8 @@ button {
   right: 8%;
   z-index: -1;
 }
+
+.regis a {
+  text-decoration: none;
+  color: white;
+}
