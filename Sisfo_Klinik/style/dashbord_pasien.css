@@ -152,3 +152,11 @@ nav {
   font-weight: lighter;
   margin-left: 1.2rem;
 }
+
+.dot img {
+  width: 10rem;
+  height: 15rem;
+  position: absolute;
+  top: 5rem;
+  right: 45rem;
+}
