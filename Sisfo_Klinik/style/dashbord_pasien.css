@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Poppins;
+}
+.foto-user {
+  background-color: rgb(117, 117, 117);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+.wave img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+
+  z-index: -999;
+}
+
+.logo {
+  margin-left: 10rem;
+}
+nav {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user {
+  display: flex;
+  margin-right: 10rem;
+}
+.user .nama {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  color: black;
+}
+.halo {
+  margin-left: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.halo h1 {
+  font-size: 4rem;
+}
+.halo p {
+  font-size: 3rem;
+}
+.fungsi {
+  display: flex;
+  width: 100rem;
+  justify-content: flex-start;
+  margin-left: 10rem;
+}
+.fungsi .konsultasi {
+  height: 25rem;
+  width: 15rem;
+  background-color: #164886;
+  border-radius: 1rem;
+  margin-right: 3rem;
+}
+.fungsi .antrian {
+  height: 25rem;
+  width: 15rem;
+  background-color: #0d7286;
+  border-radius: 1rem;
+  margin-right: 3rem;
+}
+.fungsi .riwayat {
+  height: 25rem;
+  width: 15rem;
+  background-color: #5fb2bd;
+  border-radius: 1rem;
+  margin-right: 3rem;
+}
+.fungsi .hasil {
+  height: 25rem;
+  width: 15rem;
+  background-color: #f7b702;
+  border-radius: 1rem;
+  margin-right: 3rem;
+}
+.konsultasi img {
+  width: 10rem;
+  width: 10rem;
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+  box-shadow: black;
+}
+.konsultasi h1 {
+  color: white;
+  margin-left: 1.2rem;
+}
+.konsultasi p {
+  color: white;
+  font-weight: lighter;
+  margin-left: 1.2rem;
+}
+
+.antrian img {
+  width: 10rem;
+  width: 10rem;
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+}
+.antrian h1 {
+  color: white;
+  margin-left: 1.2rem;
+}
+.antrian p {
+  color: white;
+  font-weight: lighter;
+  margin-left: 1.2rem;
+}
+
+.riwayat img {
+  width: 10rem;
+  width: 7.7rem;
+  margin-top: 3rem;
+  margin-left: 3.2rem;
+}
+.riwayat h1 {
+  color: white;
+  margin-left: 1.2rem;
+}
+.riwayat p {
+  color: white;
+  font-weight: lighter;
+  margin-left: 1.2rem;
+}
+
+.hasil img {
+  width: 10rem;
+  height: 10rem;
+  margin-top: 3rem;
+  margin-left: 3.2rem;
+}
+.hasil h1 {
+  color: white;
+  margin-left: 1.2rem;
+}
+.hasil p {
+  color: white;
+  font-weight: lighter;
+  margin-left: 1.2rem;
+}
