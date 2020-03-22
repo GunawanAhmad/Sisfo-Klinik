@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sisfo Klinik</title>
-    <link rel="stylesheet" href="style/antrian.css" />
+    <link rel="stylesheet" href="style/konsultasi.css" />
   </head>
   <body>
     <nav>
@@ -30,13 +30,32 @@
         </div>
       </div>
     </nav>
+
+    <div class="teks">
+      <h1>konsultasi</h1>
+      <p>kamu punya keluhan apa? sini biar kami bantu</p>
+    </div>
+
     <div class="container">
-      <div class="teks">
-        <h1>antrian</h1>
-        <p>cek antrian kamu udah sampai mana</p>
+      <div class="img">
+        <img src="img/konsultasi.png" alt="" />
       </div>
-      <div class="dokter">
-        <img src="img/dokter.png" alt="" />
+      <div class="form">
+        <div class="tinggi">
+          <label for="tinggi">tinggi badan</label>
+          <input type="text" id="tinggi" />
+        </div>
+        <div class="berat">
+          <label for="berat">berat badan</label>
+          <input type="text" id="berat" />
+        </div>
+        <div class="keluhan">
+          <label for="keluhan">keluhan</label>
+          <textarea name="keluhan" id="keluhan" cols="30" rows="10"></textarea>
+        </div>
+        <div class="submit">
+          <button type="submit">KONSUL</button>
+        </div>
       </div>
     </div>
 
@@ -45,9 +64,6 @@
     </div>
     <div class="dot">
       <img src="img/dot.png" alt="" />
-    </div>
-    <div class="bunga">
-      <img src="img/bunga.png" alt="" />
     </div>
   </body>
 </html>
