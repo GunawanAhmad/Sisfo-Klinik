@@ -56,9 +56,10 @@ nav {
 }
 .fungsi {
   display: flex;
-  width: 100rem;
+  width: 70%;
   justify-content: flex-start;
   margin-left: 10rem;
+  flex-wrap: wrap;
 }
 .fungsi .konsultasi {
   height: 25rem;
@@ -66,6 +67,8 @@ nav {
   background-color: #164886;
   border-radius: 1rem;
   margin-right: 3rem;
+  box-shadow: 5px 8px 10px #888888;
+  margin-bottom: 3rem;
 }
 .fungsi .antrian {
   height: 25rem;
@@ -73,6 +76,8 @@ nav {
   background-color: #0d7286;
   border-radius: 1rem;
   margin-right: 3rem;
+  box-shadow: 5px 8px 10px #888888;
+  margin-bottom: 3rem;
 }
 .fungsi .riwayat {
   height: 25rem;
@@ -80,6 +85,8 @@ nav {
   background-color: #5fb2bd;
   border-radius: 1rem;
   margin-right: 3rem;
+  box-shadow: 5px 8px 10px #888888;
+  margin-bottom: 3rem;
 }
 .fungsi .hasil {
   height: 25rem;
@@ -87,6 +94,7 @@ nav {
   background-color: #f7b702;
   border-radius: 1rem;
   margin-right: 3rem;
+  box-shadow: 5px 8px 10px #888888;
 }
 .konsultasi img {
   width: 10rem;
@@ -159,4 +167,31 @@ nav {
   position: absolute;
   top: 5rem;
   right: 45rem;
+}
+.foto .data a {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 1110px) {
+  body {
+    overflow-x: hidden;
+  }
+  .dot {
+    display: none;
+  }
+  .fungsi {
+    justify-content: center;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .user {
+    flex-direction: column;
+    margin-right: 5rem;
+  }
+  .logo {
+    margin-left: 5rem;
+  }
 }
