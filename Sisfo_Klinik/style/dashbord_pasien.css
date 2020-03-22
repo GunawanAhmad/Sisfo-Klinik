@@ -173,6 +173,15 @@ nav {
   color: black;
 }
 
+.suster img {
+  position: absolute;
+  width: 20rem;
+  height: 50rem;
+  bottom: 0;
+  right: 15rem;
+  z-index: -9;
+}
+
 @media only screen and (max-width: 1110px) {
   body {
     overflow-x: hidden;
@@ -183,6 +192,9 @@ nav {
   .fungsi {
     justify-content: center;
     margin: auto;
+  }
+  .suster img {
+    display: none;
   }
 }
 
