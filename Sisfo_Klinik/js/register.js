@@ -4,10 +4,11 @@ console.log(b[0].innerHTML);
 
 let i = 0;
 a[0].innerHTML = b[i].innerHTML;
+i = 1;
 setInterval(function() {
   if (i > 4) {
     i = 0;
   }
   a[0].innerHTML = b[i].innerHTML;
   i += 1;
-}, 5000);
+}, 30000);

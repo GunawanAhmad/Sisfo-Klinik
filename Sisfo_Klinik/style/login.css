@@ -21,6 +21,7 @@ body {
   border: 0.2rem solid black;
 }
 .teks {
+  width: 60rem;
   margin-top: 5rem;
   margin-left: 8rem;
 }
@@ -148,4 +149,35 @@ button {
 }
 .kumpulan {
   display: none;
+}
+
+@media only screen and (max-width: 1120px) {
+  .smile img {
+    display: none;
+  }
+  .teks {
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .logo {
+    top: 2rem;
+    left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .teks {
+    margin: auto;
+  }
+  .form {
+    margin: auto;
+  }
+  .logo {
+    left: 50%;
+    transform: translate(-50% -50%);
+  }
 }
