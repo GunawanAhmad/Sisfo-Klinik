@@ -34,6 +34,7 @@ body {
   height: 2.5rem;
 }
 .back {
+  margin-top: 1rem;
   display: flex;
   margin-left: 9.5rem;
 }
@@ -44,6 +45,7 @@ body {
 .back a {
   text-decoration: none;
   margin: auto;
+  font-size: 1.5rem;
 }
 nav {
   margin-top: 5rem;
