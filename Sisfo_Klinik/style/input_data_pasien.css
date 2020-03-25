@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Poppins;
+}
+.container {
+  margin: 10rem auto;
+}
+.foto-user {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: lightgray;
+  position: relative;
+  margin-right: 3rem;
+}
+.foto-user a {
+  text-decoration: none;
+  color: black;
+}
+
+.profil {
+  display: flex;
+  justify-content: center;
+}
+.edit-foto {
+  position: absolute;
+  right: -2.5rem;
+  bottom: 1rem;
+}
+.username {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.account {
+  margin-top: -1rem;
+  font-size: 2rem;
+  color: grey;
+}
+.img img {
+  width: 60rem;
+  height: 40rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  display: inline;
+  font-size: 2rem;
+}
+.form {
+  margin-left: 8rem;
+  margin-top: 5rem;
+  width: 60rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+label {
+  margin-right: 5rem;
+  font-size: 1.5rem;
+  font-size: 2rem;
+  color: grey;
+}
+input {
+  background: none;
+  border: none;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-weight: bolder;
+
+  color: black;
+}
+::placeholder {
+  color: grey;
+  font-weight: lighter;
+}
+#username {
+  margin-left: 4.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.7rem;
+}
+#alamat {
+  margin-left: 7.2rem;
+  margin-bottom: 0.7rem;
+}
+#ttl {
+  margin-left: 1.8rem;
+  margin-bottom: 0.7rem;
+}
+#tinggi {
+  margin-left: 1.8rem;
+  margin-bottom: 0.7rem;
+}
+#berat {
+  margin-left: 2rem;
+  margin-bottom: 0.7rem;
+}
+#riwayat {
+  margin-left: -1.9rem;
+  width: 30rem;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+.lengkap {
+  margin-bottom: 0.7rem;
+}
+.usrname {
+  margin-bottom: 0.7rem;
+}
+.riwayat ::placeholder {
+  text-align: center;
+}
+
+.tombol button {
+  width: 50rem;
+  height: 3.5rem;
+  margin-top: 1.5rem;
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.tulisan {
+  position: absolute;
+  left: 8rem;
+  bottom: 3rem;
+  font-size: 1.4rem;
+}
+.kanan {
+  position: absolute;
+  right: 8rem;
+  bottom: 2rem;
+}
+
+#logo {
+  height: 3rem;
+  width: 7rem;
+  margin-bottom: 2rem;
+}
+#bunga {
+  height: 18rem;
+  width: 10rem;
+}
