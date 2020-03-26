@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sisfo Klinik</title>
-    <link rel="stylesheet" href="style/input_data_pasien.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="profil">
-        <div class="foto-user">
-          <div class="foto"></div>
-          <div class="edit-foto"><a href="#">ubah foto profil</a></div>
-        </div>
-        <div class="nama">
-          <div class="username">Faris Azizy</div>
-          <div class="account">Unverfied account</div>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sisfo Klinik</title>
+  <link rel="stylesheet" href="style/input_data_pasien.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="profil">
+      <div class="foto-user">
+        <div class="foto"></div>
+        <div class="edit-foto"><a href="#">ubah foto profil</a></div>
+      </div>
+      <div class="nama">
+        <div class="username">nama</div>
+        <div class="account">Unverfied account</div>
       </div>
     </div>
-    <div class="img">
-      <img src="img/bg.png" alt="" />
-    </div>
+  </div>
+  <div class="img">
+    <img src="img/bg.png" alt="" />
+  </div>
+  <form action="">
     <div class="form">
       <div class="usrname">
         <label for="username">username</label>
-        <h1 id="username">pyurangi</h1>
+        <h1 id="username">nama</h1>
       </div>
       <div class="lengkap">
         <label for="nama">nama lengkap</label>
-        <h1 id="nama">Faris Azizy</h1>
+        <h1 id="nama">nama lengkap</h1>
       </div>
       <div class="alamat">
         <label for="alamat">alamat</label>
@@ -41,33 +44,33 @@
       </div>
       <div class="tinggi">
         <label for="tinggi">tinggi badan</label>
-        <input type="text" id="tinggi" placeholder="masukan tinggi badan" />
+        <input type="text" id="tinggi" placeholder="masukan tinggi badan" required />
       </div>
       <div class="berat">
         <label for="berat">berat badan</label>
-        <input type="text" id="berat" placeholder="masukan berat badan" />
+        <input type="text" id="berat" placeholder="masukan berat badan" required />
       </div>
       <div class="riwayat">
         <label for="riwayat">riwayat penyakit</label>
-        <input
-          type="text"
-          id="riwayat"
-          placeholder="masukan riwayat penyakit"
-        />
+        <input type="text" id="riwayat" placeholder="masukan riwayat penyakit" required />
         <div class="tombol">
-          <button>SELESAI</button>
+          <button id="button" type="submit" onclick="window.location='dashboard_pasien.html'" formtarget="
+          _blank">SELESAI</button>
         </div>
       </div>
     </div>
-    <div class="tulisan">
-      <p id="1">kenapa kami tanyakan tinggi dan berat badan?</p>
-      <p id="2">
-        tinggi badan dan berat badan digunakan untuk dosis yang pas buat kamu
-      </p>
-    </div>
-    <div class="kanan">
-      <a href="index.html"> <img id="logo" src="img/kliniku.png" alt=""/></a>
-      <img id="bunga" src="img/bunga.png" alt="" />
-    </div>
-  </body>
+  </form>
+
+  <div class=" tulisan">
+    <p id="1">kenapa kami tanyakan tinggi dan berat badan?</p>
+    <p id="2">
+      tinggi badan dan berat badan digunakan untuk dosis yang pas buat kamu
+    </p>
+  </div>
+  <div class="kanan">
+    <a href="index.html"> <img id="logo" src="img/kliniku.png" alt="" /></a>
+    <img id="bunga" src="img/bunga.png" alt="" />
+  </div>
+</body>
+
 </html>
