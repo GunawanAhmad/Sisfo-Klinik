@@ -116,6 +116,7 @@ label {
   display: block;
   font-size: 1.5rem;
   font-weight: bolder;
+  margin-bottom: 1rem;
 }
 .container {
   display: flex;
@@ -128,27 +129,62 @@ label {
   margin-top: -5rem;
 }
 .form {
+  height: 30rem;
   width: 50rem;
   display: flex;
   justify-content: space-around;
   margin-left: 18rem;
   flex-wrap: wrap;
+  position: relative;
 }
 input {
   background-color: #e2f1f4;
   border: none;
   border-radius: 5px;
 }
-.tinggi input {
-  width: 20rem;
-  height: 3rem;
+#salah a {
+  text-decoration: none;
+  color: #f7b702;
+  font-size: 1.4rem;
+  position: absolute;
+  right: 0;
 }
-.berat input {
-  width: 20rem;
-  height: 3rem;
-}
+
 .keluhan {
-  margin-top: 3rem;
+  color: #0d7286;
+  margin-top: 4rem;
+  position: relative;
+  left: -1.3rem;
+}
+.table {
+  position: absolute;
+  display: flex;
+  left: 0.1rem;
+  top: -4rem;
+  margin-left: 2.3rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  justify-content: space-between;
+  width: 25rem;
+  color: #0d7286;
+}
+p {
+  margin-bottom: 0.3rem;
+}
+
+#spesialis {
+  background-color: #e0e0e0;
+  padding: 0.1rem 0.8rem 0.1rem 0.8rem;
+  border-radius: 5px;
+  float: right;
+  clear: both;
+}
+#berat {
+  float: right;
+  clear: both;
+}
+#tinggi {
+  float: right;
 }
 .keluhan textarea {
   width: 45rem;
@@ -161,12 +197,11 @@ input {
 }
 .submit button {
   width: 45rem;
-  height: 5rem;
+  height: 4rem;
   background-color: #2c2c2c;
   border: none;
   color: white;
   border-radius: 5px;
-  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 550px) {

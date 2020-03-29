@@ -1,69 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sisfo Klinik</title>
-    <link rel="stylesheet" href="style/konsultasi.css" />
-  </head>
-  <body>
-    <nav>
-      <div class="flexlogo">
-        <div class="logo">
-          <a href="index.html"><img src="img/kliniku.png" alt=""/></a>
-        </div>
-        <div class="back">
-          <img src="img/arrow.png" alt="" />
-          <a href="dashbord_pasien.html"><p>kembali ke halaman utama</p></a>
-        </div>
-      </div>
-      <div class="user">
-        <div class="nama">
-          <h1>gunone</h1>
-          <p>verified account</p>
-        </div>
-        <div class="foto">
-          <div class="foto-user"></div>
-          <div class="data">
-            <a href=""><p>kelola data ></p></a>
-          </div>
-        </div>
-      </div>
-    </nav>
 
-    <div class="teks">
-      <h1>konsultasi</h1>
-      <p>kamu punya keluhan apa? sini biar kami bantu</p>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sisfo Klinik</title>
+  <link rel="stylesheet" href="style/konsultasi.css" />
+</head>
 
-    <div class="container">
-      <div class="img">
-        <img src="img/konsultasi.png" alt="" />
+<body>
+  <nav>
+    <div class="flexlogo">
+      <div class="logo">
+        <a href="index.html"><img src="img/kliniku.png" alt="" /></a>
       </div>
-      <div class="form">
-        <div class="tinggi">
-          <label for="tinggi">tinggi badan</label>
-          <input type="text" id="tinggi" />
-        </div>
-        <div class="berat">
-          <label for="berat">berat badan</label>
-          <input type="text" id="berat" />
-        </div>
-        <div class="keluhan">
-          <label for="keluhan">keluhan</label>
-          <textarea name="keluhan" id="keluhan" cols="30" rows="10"></textarea>
-        </div>
-        <div class="submit">
-          <button type="submit">KONSUL</button>
-        </div>
+      <div class="back">
+        <img src="img/arrow.png" alt="" />
+        <a href="dashbord_pasien.html">
+          <p>kembali ke halaman utama</p>
+        </a>
       </div>
     </div>
+    <div class="user">
+      <div class="nama">
+        <h1>gunone</h1>
+        <p>verified account</p>
+      </div>
+      <div class="foto">
+        <div class="foto-user"></div>
+        <div class="data">
+          <a href="">
+            <p>kelola data ></p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-    <div class="wave">
-      <img src="img/wave2.png" alt="" />
+  <div class="teks">
+    <h1>konsultasi</h1>
+    <p>kamu punya keluhan apa? sini biar kami bantu</p>
+  </div>
+
+  <div class="container">
+    <div class="img">
+      <img src="img/konsultasi.png" alt="" />
     </div>
-    <div class="dot">
-      <img src="img/dot.png" alt="" />
+    <div class="form">
+      <div class="table">
+        <div class="kiri">
+          <p>tinggi badan</p>
+          <p>berat badan</p>
+          <p>spesialis</p>
+        </div>
+        <div class="kanan">
+          <p id="tinggi">150 cm</p>
+          <p id="berat">50 kg</p>
+          <p id="spesialis">kardiologi</p>
+        </div>
+      </div>
+      <p id="salah"><a href="">data salah?</a></p>
+      <div class="keluhan">
+        <label for="keluhan">keluhan</label>
+        <textarea name="keluhan" id="keluhan" cols="30" rows="10"></textarea>
+      </div>
+      <div class="submit">
+        <button type="submit">KONSUL</button>
+      </div>
     </div>
-  </body>
+  </div>
+
+  <div class="wave">
+    <img src="img/wave2.png" alt="" />
+  </div>
+  <div class="dot">
+    <img src="img/dot.png" alt="" />
+  </div>
+</body>
+
 </html>
