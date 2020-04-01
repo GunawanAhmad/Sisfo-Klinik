@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Poppins;
+}
+
+.logo img {
+  margin-left: 5rem;
+  margin-top: 4rem;
+}
+#waveleft {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 40%;
+  height: 80%;
+}
+.container {
+  width: 45rem;
+  height: 50rem;
+  border: 5px solid #303838;
+  margin: auto;
+  position: relative;
+}
+.title {
+  width: 50rem;
+  height: 4rem;
+  background-color: #0d7286;
+  border-radius: 18px;
+  color: white;
+  text-align: center;
+  padding: 0.6rem 0;
+  font-size: 1.5rem;
+  position: absolute;
+  top: -0.5rem;
+  left: -3.1rem;
+}
+.daftar-pasien {
+  padding: 3rem 2rem;
+}
+.teks {
+  margin-top: 1.5rem;
+}
+#nama {
+  color: #0d7286;
+}
+#tanggal {
+  margin-top: -0.5rem;
+  color: #9a9a9a;
+  margin-bottom: 1rem;
+}
+#keluhan {
+  font-size: 1.2rem;
+  color: black;
+  margin-bottom: 1.5rem;
+}
+span {
+  background-color: #e0e0e0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin-right: 1rem;
+}
+.tombol button {
+  background-color: #2c2c2c;
+  border: none;
+  width: 40rem;
+  margin-top: 2rem;
+  margin-left: -1rem;
+  height: 3rem;
+  border-radius: 7px;
+  color: white;
+  font-family: Poppins;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
