@@ -60,10 +60,10 @@ h1 {
 	display: grid;
 	grid-template-areas: 'label content';
 	grid-template-columns: 1fr 1fr;
-	width: 40%;
+	width: 30%;
 	margin: auto;
-	border: 1px solid red;
 	font-weight: lighter;
+	position: relative;
 }
 .label {
 	grid-area: 'label';
@@ -108,4 +108,75 @@ h1 {
 #bunga {
 	height: 18rem;
 	width: 10rem;
+}
+
+.edit {
+	position: absolute;
+	right: 10rem;
+	top: 30rem;
+	display: flex;
+
+	align-items: center;
+	font-style: Poppins;
+}
+.edit a {
+	text-decoration: none;
+	color: #808080;
+}
+
+.edit img {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+.back img {
+	transform: rotate(180deg);
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.back {
+	width: 30rem;
+	margin-top: 2rem;
+	display: flex;
+	margin-left: 5.5rem;
+}
+
+.back a {
+	text-decoration: none;
+	margin: auto;
+	font-size: 1.5rem;
+	color: #f7b702;
+	width: 90%;
+}
+#ubah {
+	display: flex;
+}
+#ubah a {
+	text-decoration: none;
+	color: #f7b702;
+}
+
+#ubah img {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+@media only screen and (max-width: 1110px) {
+	.info {
+		width: 100%;
+	}
+	.kanan {
+		position: static;
+		margin-left: 30%;
+	}
+	.tulisan {
+		position: static;
+	}
+	.edit {
+		position: static;
+		display: flex;
+		justify-content: center;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
 }
