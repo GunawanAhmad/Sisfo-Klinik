@@ -12,6 +12,11 @@ body {
 .container {
 	margin: 10rem auto;
 }
+.edit-foto {
+	background-color: white;
+	border-radius: 20px;
+	padding: 0 5px;
+}
 .foto-user {
 	width: 10rem;
 	height: 10rem;

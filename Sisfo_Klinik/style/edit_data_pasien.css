@@ -63,22 +63,14 @@ h1 {
 
 .info {
 	display: grid;
-	grid-template-areas:
-		'label content'
-		'label content'
-		'label content'
-		'label content'
-		'label content'
-		'label content'
-		'label content'
-		'btn btn';
+	grid-template-areas: 'label content';
 	grid-template-columns: 1fr 1fr;
 	width: 40%;
 	margin: auto;
 	font-weight: lighter;
 	position: relative;
 	height: auto;
-	/* border: 1px solid black; */
+	border: 1px solid black;
 }
 .label {
 	grid-area: 'label';
@@ -125,10 +117,22 @@ h1 {
 	width: 10rem;
 }
 
-#sakit {
-	background-color: lightgray;
-	border-radius: 5px;
-	padding: 0 5px;
+.edit {
+	position: absolute;
+	right: 10rem;
+	top: 30rem;
+	display: flex;
+	align-items: center;
+	font-style: Poppins;
+}
+.edit a {
+	text-decoration: none;
+	color: #808080;
+}
+
+.edit img {
+	width: 2.5rem;
+	height: 2.5rem;
 }
 
 .back img {
@@ -152,14 +156,15 @@ h1 {
 }
 #ubah {
 	display: flex;
-	background-color: black;
-	text-align: center;
-	color: white;
-	display: inline-block;
-	grid-area: btn;
-	height: 3.5rem;
-	border-radius: 5px;
-	border: none;
+}
+#ubah a {
+	text-decoration: none;
+	color: #f7b702;
+}
+
+#ubah img {
+	width: 2.5rem;
+	height: 2.5rem;
 }
 
 input {
@@ -182,6 +187,13 @@ input {
 	}
 	.tulisan {
 		position: static;
+	}
+	.edit {
+		position: static;
+		display: flex;
+		justify-content: center;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
 	}
 }
 
