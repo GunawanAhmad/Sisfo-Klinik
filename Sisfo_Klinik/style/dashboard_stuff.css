@@ -20,6 +20,7 @@ body {
 	right: 0;
 	width: auto;
 	height: 100%;
+	z-index: -2;
 }
 .komp img {
 	position: absolute;
@@ -28,6 +29,7 @@ body {
 	right: 10rem;
 	top: 50%;
 	transform: translateY(-50%);
+	z-index: -1;
 }
 .teks h1 {
 	margin-left: 5rem;
@@ -62,4 +64,17 @@ body {
 a {
 	text-decoration: none;
 	color: black;
+}
+
+@media only screen and (max-width: 1110px) {
+	.komp img {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 678px) {
+	.teks h1 {
+		text-align: center;
+		margin-left: 0;
+	}
 }
