@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Sisfo Klinik</title>
+	<link rel="stylesheet" href="style/pemeriksaan_pasien.css" />
+</head>
+
+<body>
+	<nav>
+		<div class="flexlogo">
+			<div class="back">
+				<img src="img/arrow.png" alt="" />
+				<a href="dashboard_pasien.html">
+					<p>kembali</p>
+				</a>
+			</div>
+			<div class="logo">
+				<a href="index.html"><img src="img/kliniku.png" alt="" /></a>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<h1 class="title">pemeriksaan pasien</h1>
+		<div class="user">
+			<div class="info">
+				<h2>Gunawan Nur Ahmad</h2>
+				<h4>26 Juni 2020</h4>
+			</div>
+			<div class="telpon">
+				<button>TELEPON</button>
+			</div>
+		</div>
+		<div class="teks">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta possimus, assumenda adipisci voluptate
+				voluptatem, nobis asperiores recusandae pariatur ullam iure temporibus nihil omnis nostrum excepturi
+				alias quae fugit? Impedit aut nisi magnam tempore, voluptatem reiciendis sed minus maiores dolorem
+				mollitia, accusamus amet! Inventore quos omnis maxime similique error corporis neque!</p>
+		</div>
+
+		<div class="form">
+			<div class="nama section">
+				<label for="nama" class="label">Nama</label>
+				<input type="text" name="nama" class="input">
+			</div>
+			<div class="alamat section">
+				<label for="alamat" class="label">Alamat</label>
+				<input type="text" name="alamat" id="" class="input">
+			</div>
+			<div class="ttl section">
+				<label for="tanggal" class="label">Tanggal lahir</label>
+				<input type="date" name="tanggal" class="input">
+			</div>
+			<div class="tinggi section">
+				<label for="tinggi" class="label">Tinggi badan</label>
+				<div>
+					<input type="number" name="tinggi" step="0.1" class="input">
+					<span>cm</span>
+				</div>
+
+			</div>
+			<div class="berat section">
+				<label for="berat" class="label">Berat badan</label>
+				<div>
+					<input type="number" name="berat" step="0.1" class="input">
+					<span>kg</span>
+				</div>
+			</div>
+			<div class="riwayat section">
+				<label for="riwayat" class="label">Riwayat penyakit</label>
+				<input type="text" name="riwayat" class="input">
+			</div>
+			<div class="pekerjaan section">
+				<label for="kerja" class="label">Pekerjaan</label>
+				<input type="text" name="kerja" class="input">
+			</div>
+			<div class="tidur section">
+				<p class="label">Rata-rata waktu tidur</p>
+				<div class="input">
+					<input type="radio" name="tidur">
+					<label>1-3 jam</label>
+					<input type="radio" name="tidur">
+					<label>4-5 jam</label>
+					<input type="radio" name="tidur">
+					<label>6-7 jam</label>
+					<input type="radio" name="tidur">
+					<label>8-9 jam</label>
+					<input type="radio" name="tidur">
+					<label>10+ jam</label>
+				</div>
+
+			</div>
+			<div class="olahraga section">
+				<p class="label">Intensitas olahraga</p>
+				<div class="input">
+					<input type="radio" name="olahraga">
+					<label>tidak pernah</label>
+					<input type="radio" name="olahraga">
+					<label>1-2 kali semingu</label>
+					<input type="radio" name="olahraga">
+					<label>3-5 kali seminggu</label>
+					<input type="radio" name="olahraga">
+					<label>6-7 kali seminggu</label>
+				</div>
+
+			</div>
+			<div class="minum section">
+				<p class="label">Intensitas minum air putih</p>
+				<div class="input">
+					<input type="radio" name="minum">
+					<label>1-2 gelas</label>
+					<input type="radio" name="minum">
+					<label>3-5 gelas</label>
+					<input type="radio" name="minum">
+					<label>6-8 gelas</label>
+					<input type="radio" name="minum">
+					<label>9+ gelas</label>
+				</div>
+
+			</div>
+			<div class="rokok section">
+				<p class="label">perokok</p>
+				<div class="input">
+					<input type="radio" name="rokok">
+					<label>Ya</label>
+					<input type="radio" name="rokok">
+					<label>Tidak</label>
+				</div>
+			</div>
+			<div class="gejala section">
+				<p class="label">Gejala umum</p>
+				<div class="input">
+					<input type="radio" name="gejala">
+					<label>Demam</label>
+					<input type="radio" name="gejala">
+					<label>Batuk</label>
+					<input type="radio" name="gejala">
+					<label>Pilek</label>
+				</div>
+			</div>
+			<div class="makan section">
+				<label for="makan" class="label">makanan yang sering dikonsumsi</label>
+				<input type="text" name="makan" id="" class="input">
+			</div>
+			<div class="lain section">
+				<label for="lain
+				" class="label">Lain-lain</label>
+				<input type="text" name="lain" id="" class="input">
+			</div>
+			<p>* data dimasukan setelah/saat konsultasi secara langsung melalui telepon atau keluhan pasien </p>
+			<button class="btn">SUBMIT</button>
+		</div>
+	</div>
+</body>
+
+</html>
