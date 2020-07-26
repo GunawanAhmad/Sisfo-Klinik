@@ -78,7 +78,7 @@
 			</div>
 			<div class="tidur section">
 				<p class="label">Rata-rata waktu tidur</p>
-				<div class="input">
+				<div class="input radio">
 					<input type="radio" name="tidur">
 					<label>1-3 jam</label>
 					<input type="radio" name="tidur">
@@ -94,7 +94,7 @@
 			</div>
 			<div class="olahraga section">
 				<p class="label">Intensitas olahraga</p>
-				<div class="input">
+				<div class="input radio">
 					<input type="radio" name="olahraga">
 					<label>tidak pernah</label>
 					<input type="radio" name="olahraga">
@@ -108,7 +108,7 @@
 			</div>
 			<div class="minum section">
 				<p class="label">Intensitas minum air putih</p>
-				<div class="input">
+				<div class="input radio">
 					<input type="radio" name="minum">
 					<label>1-2 gelas</label>
 					<input type="radio" name="minum">
@@ -122,7 +122,7 @@
 			</div>
 			<div class="rokok section">
 				<p class="label">perokok</p>
-				<div class="input">
+				<div class="input radio">
 					<input type="radio" name="rokok">
 					<label>Ya</label>
 					<input type="radio" name="rokok">
@@ -131,7 +131,7 @@
 			</div>
 			<div class="gejala section">
 				<p class="label">Gejala umum</p>
-				<div class="input">
+				<div class="input radio">
 					<input type="radio" name="gejala">
 					<label>Demam</label>
 					<input type="radio" name="gejala">
@@ -149,7 +149,16 @@
 				" class="label">Lain-lain</label>
 				<input type="text" name="lain" id="" class="input">
 			</div>
-			<p>* data dimasukan setelah/saat konsultasi secara langsung melalui telepon atau keluhan pasien </p>
+			<div class="diagnosis section">
+				<label for="diagnosis" class="label">Diagnosis penyakit</label>
+				<input type="text" name="diagnosis" class="input">
+			</div>
+			<div class="catatan section">
+				<label for="catatan" class="label">Catatan untuk pasien</label>
+				<input type="text" name="catatan" class="input">
+			</div>
+			<p class="warn">* data dimasukan setelah/saat konsultasi secara langsung melalui telepon atau keluhan pasien
+			</p>
 			<button class="btn">SUBMIT</button>
 		</div>
 	</div>

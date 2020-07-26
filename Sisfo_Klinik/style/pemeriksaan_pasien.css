@@ -18,6 +18,11 @@ body {
   justify-content: space-between;
 }
 
+.logo img {
+  height: 2rem;
+  width: 7rem;
+}
+
 .back img {
   transform: rotate(180deg);
   width: 2.5rem;
@@ -41,7 +46,7 @@ nav {
 }
 
 .title {
-  font-size: 4.4rem;
+  font-size: 5.4rem;
   font-weight: 600;
   letter-spacing: 0.2rem;
   margin-bottom: 20px;
@@ -72,13 +77,15 @@ nav {
   margin-bottom: 15px;
 }
 .form {
-  width: 90%;
+  width: 70%;
 }
 .section {
   display: grid;
   grid-template-areas: "label input";
   grid-template-columns: 1fr 2.5fr;
   margin: 5px 0;
+  align-items: center;
+  justify-content: center;
 }
 .section .label {
   grid-area: "label";
@@ -99,13 +106,33 @@ nav {
   background-color: #f1f1f1;
 }
 
+.ttl .input {
+  width: 12rem;
+}
+
 .makan .input,
 .alamat .input,
 .nama .input,
 .riwayat .input,
 .pekerjaan .input,
-.ttl .input {
+.ttl .input,
+.diagnosis .input,
+.catatan .input,
+.lain .input {
   background-color: #f1f1f1;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+}
+
+.radio label {
+  margin-right: 2rem;
+}
+
+.radio input {
+  margin-right: 0.5rem;
 }
 
 .btn {
@@ -118,6 +145,11 @@ nav {
   border-radius: 7px;
   cursor: pointer;
   padding: 3px 0;
+  margin-bottom: 20px;
+}
+
+.warn {
+  margin: 20px 0;
 }
 @media only screen and (max-width: 550px) {
   .img img {
